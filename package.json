@@ -4,7 +4,9 @@
   "description": "Webpack configuration for handling various filetypes",
   "private": true,
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [],
   "author": "Benjamin Lee",
   "license": "ISC",
