@@ -28,6 +28,15 @@ module.exports = {
         test: /\.(jpeg|jpg|png|gif)$/,
         loader: 'file-loader',
       },
+      {
+        test: /\.svg$/,
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 1000000,
+          },
+        }],
+      },
     ],
   },
   resolve: {
