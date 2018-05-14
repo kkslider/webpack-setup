@@ -1,9 +1,13 @@
-import _ from 'lodash';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from './button.jsx';
 
-function component() {
-  var element = document.createElement('div');
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  return element;
-}
+const title = 'Webpack setup';
 
-document.body.appendChild(component());
+ReactDOM.render(
+  <div>
+    {title}
+    <Button></Button>
+  </div>,
+  document.getElementById('app')
+);
