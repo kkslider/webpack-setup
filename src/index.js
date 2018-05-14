@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from './button.jsx';
+import Button from './components/button.jsx';
+import './styles/index.scss';
 
 const title = 'Webpack setup';
 
