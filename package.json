@@ -1,0 +1,10 @@
+{
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "Webpack configuration for handling various filetypes",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Benjamin Lee",
+  "license": "ISC"
+}
